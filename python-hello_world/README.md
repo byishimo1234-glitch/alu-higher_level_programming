@@ -1,1 +1,1 @@
-File that Write a Shell script that runs a Python script.
+File that Write a Shell script that runs Python code.
