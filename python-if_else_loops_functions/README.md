@@ -1,1 +1,1 @@
-File that Write a function that prints the last digit of a number.
+File that Write a function that adds two integers and returns the result.
