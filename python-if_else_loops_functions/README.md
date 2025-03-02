@@ -1,1 +1,1 @@
-File that Write a function that prints a string in uppercase followed by a new line.
+File that Write a function that prints the last digit of a number.
