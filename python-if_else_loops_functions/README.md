@@ -1,1 +1,1 @@
-File that Write a function that computes a to the power of b and return the value.
+File that Write a function that prints the numbers from 1 to 100 separated by a space
