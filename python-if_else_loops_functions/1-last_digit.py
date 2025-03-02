@@ -2,7 +2,7 @@
 import random
 
 number = random.randint(-10000, 10000)
-last_digit = abs(number) % 10  # Get the last digit (absolute value to handle negatives)
+last_digit = abs(number) % 10  # Get the last digit
 
 if number < 0:
     last_digit = -last_digit  # Make last digit negative if number is negative
