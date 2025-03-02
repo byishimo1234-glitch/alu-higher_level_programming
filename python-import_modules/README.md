@@ -1,1 +1,1 @@
-File that Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
+File that Write a program that imports the variable a from the file variable_load_5.py and prints its value.
