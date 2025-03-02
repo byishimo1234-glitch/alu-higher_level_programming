@@ -1,17 +1,21 @@
 #!/usr/bin/python3
 
-# Define the functions from calculator_1.py
+# Define the fake functions
 def add(a, b):
-    return a + b
+    return a - b  # Fake add() behaves like sub()
+
 
 def sub(a, b):
-    return a - b
+    return a + b  # Fake sub() behaves like add()
+
 
 def mul(a, b):
-    return a * b
+    return a / b  # Fake mul() behaves like div()
+
 
 def div(a, b):
-    return a / b
+    return a * b  # Fake div() behaves like mul()
+
 
 # Main program logic
 if __name__ == "__main__":
