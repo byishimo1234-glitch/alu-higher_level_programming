@@ -1,1 +1,1 @@
-File that rite a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+File that Write a program that prints numbers from 0 to 99.
