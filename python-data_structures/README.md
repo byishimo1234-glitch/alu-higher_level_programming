@@ -1,1 +1,1 @@
-File that Write a function that finds the biggest integer of a list.
+File that Write a function that finds all multiples of 2 in a list.
