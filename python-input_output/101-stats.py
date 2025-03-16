@@ -18,7 +18,7 @@ def print_stats():
     """
     Print the computed statistics.
     """
-    print(f"Total file size: {total_size}")
+    print(f"File size: {total_size}")
     for code in sorted(status_codes.keys()):
         if status_codes[code] > 0:
             print(f"{code}: {status_codes[code]}")
@@ -61,7 +61,9 @@ try:
         if line_count % 10 == 0:
             print_stats()
 
-except KeyboardInterrupt:
-    # Handle keyboard interruption
+except Exception:
+    pass
+
+finally:
+    # Print stats at the end (e.g., for empty files or keyboard interruption)
     print_stats()
-    sys.exit(0)
